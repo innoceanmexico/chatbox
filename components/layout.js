@@ -12,6 +12,14 @@ function Layout({children}) {
       </Head>
       
       {children}
+
+      <style jsx global>{`
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Montserrat', sans-serif;
+        }
+      `}</style>
     </>
   )
 }

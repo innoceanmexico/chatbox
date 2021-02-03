@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <div className="container inicio m-0 p-0">
         <div align="center">
-          <img src="images/logo-blanco.png" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
+          <img src="/images/logo-blanco.png" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
         </div>
         <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
           <h1>[ CHATBOX IMPLEMENTACIÓN ]</h1>
